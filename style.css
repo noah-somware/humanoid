@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-wrapper {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(237, 113, 5, 0.3);
+    width: 100%;
+  }
+  
+  #kajabi-form .kajabi-form__title {
+    color: #ffffff !important;
+  }
+
+  #kajabi-form .kajabi-form__subtitle {
+    color: #e0e0e0 !important;
+  }
+
+  #form-fallback {
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+
+  #form-fallback .fallback-title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  footer a {
+    color: #ed7105;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .form-wrapper {
+      padding: 1.5rem;
+    }
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+
+  body.policy-page {
+    display: block;
+    text-align: left;
+    min-height: 0;
+  }
+
+  body.policy-page .container {
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .policy-content h1 {
+    color: #ed7105;
+  }
+
+  .policy-content h2 {
+    color: #ed7105;
+    margin-top: 2rem;
+  }
+
+  .policy-content p,
+  .policy-content li {
+    line-height: 1.6;
+    color: #ddd;
+  }
+
+  .policy-content a {
+    color: #ed7105;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+  }
