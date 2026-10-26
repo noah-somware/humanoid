@@ -54,7 +54,7 @@ body {
   }
   
   footer a {
-    color: #ed7105;
+    color: #40BAFF;
     text-decoration: none;
   }
   
@@ -84,11 +84,11 @@ body {
   }
 
   .policy-content h1 {
-    color: #ed7105;
+    color: #40BAFF;
   }
 
   .policy-content h2 {
-    color: #ed7105;
+    color: #40BAFF;
     margin-top: 2rem;
   }
 
@@ -99,7 +99,7 @@ body {
   }
 
   .policy-content a {
-    color: #ed7105;
+    color: #40BAFF;
   }
 
   .back-link {
